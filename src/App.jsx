@@ -16,6 +16,8 @@ export default function DirtyGooseWebsite() {
     osc.stop(ctx.currentTime + 0.06);
   };
 
+  const whatsappLink = "https://chat.whatsapp.com/K4X9ZADstIK5tPp4GKcQhY";
+
   // Calculator state
   const [dpi, setDpi] = useState(800);
   const [multiplier, setMultiplier] = useState(1);
