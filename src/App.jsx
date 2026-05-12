@@ -96,7 +96,7 @@ export default function DirtyGooseWebsite() {
               "Home",
               "Tips",
               "Tools",
-              "Videos",
+              "Videos", id: "http://www.youtube.com/@FU-HAD" },
               "Leaderboard",
               "Contact"
             ].map((item, i) => (
