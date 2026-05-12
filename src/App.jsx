@@ -116,7 +116,7 @@ export default function DirtyGooseWebsite() {
         {/* Calculator Tool */}
         <section className="p-8 grid md:grid-cols-2 gap-6">
           <div className="bg-slate-900/70 p-6 rounded-xl border border-blue-500/30">
-            <h3 className="text-xl text-blue-300 mb-3">Sensitivity Calculator</h3>
+            <h3 className="text-xl text-blue-300 mb-3">Calculate Sensitivity For Better performanc</h3>
 
             <input
               type="number"
@@ -159,28 +159,28 @@ export default function DirtyGooseWebsite() {
           <div className="grid md:grid-cols-2 gap-6">
             <iframe
               className="w-full h-64 rounded-xl"
-              src="https://youtu.be/yJ5J7dA-e1Y?si=cJHiWm8L8kf1ZigL"
+              src= " https://youtu.be/yJ5J7dA-e1Y?si=cJHiWm8L8kf1ZigL "
               title="video1"
               allowFullScreen
             ></iframe>
             
             <iframe
               className="w-full h-64 rounded-xl"
-              src="https://youtu.be/w2AYRGUCymE?si=9GVM3y_parPVrpwB"
+              src= " https://youtu.be/w2AYRGUCymE?si=9GVM3y_parPVrpwB "
               title="video2"
               allowFullScreen
             ></iframe>
             
             <iframe
               className="w-full h-64 rounded-xl"
-              src="https://youtu.be/JrVEPOA6W-Q?si=DobGzH7RIb0k9rr3"
+              src= " https://youtu.be/JrVEPOA6W-Q?si=DobGzH7RIb0k9rr3 "
               title="video3"
               allowFullScreen
             ></iframe>
 
             <iframe
               className="w-full h-64 rounded-xl"
-              src="https://youtu.be/AjgaQkHVuLI?si=C2ZCRFPpNqNjiS0j"
+              src= " https://youtu.be/AjgaQkHVuLI?si=C2ZCRFPpNqNjiS0j "
               title="video4"
               allowFullScreen
             ></iframe>
@@ -189,7 +189,7 @@ export default function DirtyGooseWebsite() {
 
         {/* Leaderboard */}
         <section className="p-8">
-          <h3 className="text-3xl text-blue-400 mb-4">🏆 Leaderboard</h3>
+          <h3 className="text-3xl text-blue-400 mb-4">🏆 GOOSE POINT ASSIST</h3>
 
           <div className="bg-slate-900/70 rounded-xl p-4 border border-blue-500/30">
             {players.map((p, i) => (
@@ -203,7 +203,7 @@ export default function DirtyGooseWebsite() {
 
         {/* Footer */}
         <footer className="text-center p-6 text-gray-500 border-t border-blue-500/20">
-          © 2026 Dirty Goose • Made by ғᴜʜᴀᴅ-ᴛʜᴇ ᴄᴏᴅᴇ ᴅᴇᴠᴇʟᴏᴘᴇʀ
+          ©  2026  Dirty  Goose  •  Made  by  ғᴜʜᴀᴅ  -  ᴛʜᴇ  ᴄᴏᴅᴇ  ᴅᴇᴠᴇʟᴏᴘᴇʀ
         </footer>
       </div>
 
