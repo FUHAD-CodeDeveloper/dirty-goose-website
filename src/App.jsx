@@ -159,15 +159,29 @@ export default function DirtyGooseWebsite() {
           <div className="grid md:grid-cols-2 gap-6">
             <iframe
               className="w-full h-64 rounded-xl"
-              src="https://youtu.be/AjgaQkHVuLI?si=C2ZCRFPpNqNjiS0j"
+              src="https://youtu.be/yJ5J7dA-e1Y?si=cJHiWm8L8kf1ZigL"
               title="video1"
+              allowFullScreen
+            ></iframe>
+            
+            <iframe
+              className="w-full h-64 rounded-xl"
+              src="https://youtu.be/w2AYRGUCymE?si=9GVM3y_parPVrpwB"
+              title="video2"
+              allowFullScreen
+            ></iframe>
+            
+            <iframe
+              className="w-full h-64 rounded-xl"
+              src="https://youtu.be/JrVEPOA6W-Q?si=DobGzH7RIb0k9rr3"
+              title="video3"
               allowFullScreen
             ></iframe>
 
             <iframe
               className="w-full h-64 rounded-xl"
-              src="https://youtu.be/JrVEPOA6W-Q?si=DobGzH7RIb0k9rr3"
-              title="video2"
+              src="https://youtu.be/AjgaQkHVuLI?si=C2ZCRFPpNqNjiS0j"
+              title="video4"
               allowFullScreen
             ></iframe>
           </div>
