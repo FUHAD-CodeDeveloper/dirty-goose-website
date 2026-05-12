@@ -168,20 +168,6 @@ export default function DirtyGooseWebsite() {
               title="video2"
               allowFullScreen
             ></iframe>
-            
-            <iframe
-              className="w-full h-64 rounded-xl"
-              src="https://youtu.be/JrVEPOA6W-Q?si=DobGzH7RIb0k9rr3"
-              title="video3"
-              allowFullScreen
-            ></iframe>
-
-            <iframe
-              className="w-full h-64 rounded-xl"
-              src="https://youtu.be/AjgaQkHVuLI?si=C2ZCRFPpNqNjiS0j"
-              title="video4"
-              allowFullScreen
-            ></iframe>
           </div>
         </section>
 
