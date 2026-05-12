@@ -1,5 +1,6 @@
 import { useEffect, useState } from "react";
 import { SpeedInsights } from '@vercel/speed-insights/react';
+import { Analytics } from '@vercel/analytics/react';
 
 export default function DirtyGooseWebsite() {
   // Click sound
@@ -191,6 +192,9 @@ export default function DirtyGooseWebsite() {
 
       {/* Vercel Speed Insights */}
       <SpeedInsights />
+
+      {/* Vercel Web Analytics */}
+      <Analytics />
     </div>
   );
 }
