@@ -21,7 +21,7 @@ export default function DirtyGooseWebsite() {
     { name: "Home", link: "#" },
     { name: "Tips", link: "#" },
     { name: "Tools", link: "#" },
-    { name: "Videos", link: "#" },
+    { name: "Videos", link: "https://youtube.com/shorts/s49JVlzEjZo?feature=share" },
     { name: "Leaderboard", link: "#" },
     { name: "Contact", link: "https://chat.whatsapp.com/K4X9ZADstIK5tPp4GKcQhY" },
   ];
