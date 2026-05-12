@@ -207,7 +207,7 @@ export default function DirtyGooseWebsite() {
 
         {/* Footer */}
         <footer className="text-center p-6 text-gray-500 border-t border-blue-500/20">
-          ©  2026  Dirty  Goose  •  ᴍᴀᴅᴇ  ʙʏ  ғᴜʜᴀᴅ  -  ᴛʜᴇ  ᴄᴏᴅᴇ  ᴅᴇᴠᴇʟᴏᴘᴇʀ
+          ©  2026  dirty  goose  [THE GAMING ASSISTANT]  •  ᴍᴀᴅᴇ  ʙʏ  ғᴜʜᴀᴅ  -  ᴛʜᴇ  ᴄᴏᴅᴇ  ᴅᴇᴠᴇʟᴏᴘᴇʀ
         </footer>
       </div>
 
