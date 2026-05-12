@@ -154,19 +154,19 @@ export default function DirtyGooseWebsite() {
 
         {/* YouTube Section */}
         <section className="p-8">
-          <h3 className="text-3xl text-blue-400 mb-4">🎥 Gaming Videos</h3>
+          <h3 className="text-3xl text-blue-400 mb-4">🎥 Gameplay Walkthrough's</h3>
 
           <div className="grid md:grid-cols-2 gap-6">
             <iframe
               className="w-full h-64 rounded-xl"
-              src="https://www.youtube.com/embed/dQw4w9WgXcQ"
+              src="https://youtu.be/AjgaQkHVuLI?si=C2ZCRFPpNqNjiS0j"
               title="video1"
               allowFullScreen
             ></iframe>
 
             <iframe
               className="w-full h-64 rounded-xl"
-              src="https://www.youtube.com/embed/3JZ_D3ELwOQ"
+              src="https://youtu.be/JrVEPOA6W-Q?si=DobGzH7RIb0k9rr3"
               title="video2"
               allowFullScreen
             ></iframe>
