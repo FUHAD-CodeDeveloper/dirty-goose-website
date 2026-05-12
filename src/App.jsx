@@ -154,7 +154,7 @@ export default function DirtyGooseWebsite() {
 
         {/* YouTube Section */}
 <section className="p-8">
-  <h3 className="text-3xl text-blue-400 mb-4">🎥 Gaming Videos</h3>
+  <h3 className="text-3xl text-blue-400 mb-4">🕹️ Gameplay Walkthrough</h3>
 
   <div className="grid md:grid-cols-2 gap-6">
     {/* Garten of Banban 1 Gameplay */}
@@ -170,6 +170,22 @@ export default function DirtyGooseWebsite() {
       className="w-full h-64 rounded-xl"
       src="https://www.youtube.com/embed/bpR3v4RC7zk"
       title="Trees Hate Me.... (I also hate them too)"
+      allowFullScreen
+    ></iframe>
+
+    {/* Video 3: SUBLIMINAL Horror */}
+    <iframe
+      className="w-full h-64 rounded-xl"
+      src="https://www.youtube.com/embed/yJ5J7dA-e1Y"
+      title="SUBLIMINAL Horror Gameplay"
+      allowFullScreen
+    ></iframe>
+
+    {/* Video 4: Alternate Horror/Gaming Video */}
+    <iframe
+      className="w-full h-64 rounded-xl"
+      src="https://www.youtube.com/embed/JrVEPOA6W-Q"
+      title="Gaming Video"
       allowFullScreen
     ></iframe>
   </div>
