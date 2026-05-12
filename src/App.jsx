@@ -16,8 +16,6 @@ export default function DirtyGooseWebsite() {
     osc.stop(ctx.currentTime + 0.06);
   };
 
-  const whatsappLink = "https://chat.whatsapp.com/K4X9ZADstIK5tPp4GKcQhY";
-
   // Calculator state
   const [dpi, setDpi] = useState(800);
   const [multiplier, setMultiplier] = useState(1);
@@ -209,7 +207,7 @@ export default function DirtyGooseWebsite() {
 
         {/* Footer */}
         <footer className="text-center p-6 text-gray-500 border-t border-blue-500/20">
-          ©  2026  dirty  goose  [THE GAMING ASSISTANT]  •  ᴍᴀᴅᴇ  ʙʏ  ғᴜʜᴀᴅ  -  ᴛʜᴇ  ᴄᴏᴅᴇ  ᴅᴇᴠᴇʟᴏᴘᴇʀ
+          ©  2026  dirty  goose  •  ᴍᴀᴅᴇ  ʙʏ  ғᴜʜᴀᴅ  -  ᴛʜᴇ  ᴄᴏᴅᴇ  ᴅᴇᴠᴇʟᴏᴘᴇʀ
         </footer>
       </div>
 
