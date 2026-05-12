@@ -100,7 +100,7 @@ export default function DirtyGooseWebsite() {
       <div className="relative z-10">
         {/* Navbar */}
         <nav className="flex justify-between p-6 bg-black/60 backdrop-blur border-b border-blue-500/30">
-  <h1 className="text-2xl font-bold text-blue-400">DIRTY GOOSE</h1>
+  <h1 className="text-2xl font-bold text-blue-400">DIRTY GOOSE ᴍᴀᴅᴇ ʙʏ ғᴜʜᴀᴅ</h1>
   <div className="flex gap-4 text-sm">
     {[
       "Home",
@@ -109,21 +109,33 @@ export default function DirtyGooseWebsite() {
       "Videos",
       "Leaderboard",
       "Contact"
-    ].map((item, i) => (
-      <a 
-        key={i} 
-        href="https://chat.whatsapp.com/K4X9ZADstIK5tPp4GKcQhY"
-        target="_blank" 
-        rel="noopener noreferrer"
-        onClick={playClick} 
-        className="hover:text-blue-400 cursor-pointer transition-colors"
-      >
-        {item}
-      </a>
-    ))}
+    ].map((item, i) => {
+      // Determine the correct link based on the button name
+      let hrefValue = "https://chat.whatsapp.com/K4X9ZADstIK5tPp4GKcQhY"; // Default WhatsApp link
+      
+      if (item === "Tips") {
+        hrefValue = "https://kotaku.com/games";
+      } else if (item === "Tools") {
+        hrefValue = "https://gaming.tools";
+      } else if (item === "Leaderboard") {
+        hrefValue = "https://gamesight.io/games";
+      }
+
+      return (
+        <a 
+          key={i} 
+          href={hrefValue}
+          target="_blank" 
+          rel="noopener noreferrer"
+          onClick={playClick} 
+          className="hover:text-blue-400 cursor-pointer transition-colors"
+        >
+          {item}
+        </a>
+      );
+    })}
   </div>
 </nav>
-
         {/* Hero */}
         <section className="text-center py-20">
           <h2 className="text-6xl font-extrabold text-blue-400">DIRTY GOOSE</h2>
