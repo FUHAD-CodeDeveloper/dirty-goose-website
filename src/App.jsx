@@ -96,9 +96,9 @@ export default function DirtyGooseWebsite() {
               "Home",
               "Tips",
               "Tools",
-              "Videos", id: "http://www.youtube.com/@FU-HAD" },
+              "Videos",
               "Leaderboard",
-              "Contact", id: "chat.whatsapp.com/K4X9ZADstIK5tPp4GKcQhY" } 
+              "Contact"
             ].map((item, i) => (
               <a key={i} onClick={playClick} className="hover:text-blue-400 cursor-pointer">
                 {item}
