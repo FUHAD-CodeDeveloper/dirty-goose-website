@@ -153,25 +153,27 @@ export default function DirtyGooseWebsite() {
         </section>
 
         {/* YouTube Section */}
-        <section className="p-8">
-          <h3 className="text-3xl text-blue-400 mb-4">🎥 Gameplay Walkthrough's</h3>
+<section className="p-8">
+  <h3 className="text-3xl text-blue-400 mb-4">🎥 Gaming Videos</h3>
 
-          <div className="grid md:grid-cols-2 gap-6">
-            <iframe
-              className="w-full h-64 rounded-xl"
-              src="https://www.youtube.com/watch?v=bpr3v4rc7zk&t=5s"
-              title="video1"
-              allowFullScreen
-            ></iframe>
-            
-            <iframe
-              className="w-full h-64 rounded-xl"
-              src= "https://youtu.be/w2AYRGUCymE?si=9GVM3y_parPVrpwB"
-              title="video2"
-              allowFullScreen
-            ></iframe>
-          </div>
-        </section>
+  <div className="grid md:grid-cols-2 gap-6">
+    {/* Garten of Banban 1 Gameplay */}
+    <iframe
+      className="w-full h-64 rounded-xl"
+      src="https://www.youtube.com/embed/w2AYRGUCymE"
+      title="Kindergarten is CURSED! | Garten of Banban 1"
+      allowFullScreen
+    ></iframe>
+
+    {/* Trees Hate Me Gameplay */}
+    <iframe
+      className="w-full h-64 rounded-xl"
+      src="https://www.youtube.com/embed/bpR3v4RC7zk"
+      title="Trees Hate Me.... (I also hate them too)"
+      allowFullScreen
+    ></iframe>
+  </div>
+</section>
 
         {/* Leaderboard */}
         <section className="p-8">
