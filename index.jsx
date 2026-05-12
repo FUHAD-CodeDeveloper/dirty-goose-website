@@ -187,7 +187,7 @@ export default function DirtyGooseWebsite() {
 
         {/* Leaderboard */}
         <section className="p-8">
-          <h3 className="text-3xl text-blue-400 mb-4">🏆 Leaderboard</h3>
+          <h3 className="text-3xl text-blue-400 mb-4">🏆 Todays Leaderboard</h3>
 
           <div className="bg-slate-900/70 rounded-xl p-4 border border-blue-500/30">
             {players.map((p, i) => (
