@@ -166,22 +166,8 @@ export default function DirtyGooseWebsite() {
             
             <iframe
               className="w-full h-64 rounded-xl"
-              src= " https://youtu.be/w2AYRGUCymE?si=9GVM3y_parPVrpwB "
+              src= "https://youtu.be/w2AYRGUCymE?si=9GVM3y_parPVrpwB"
               title="video2"
-              allowFullScreen
-            ></iframe>
-            
-            <iframe
-              className="w-full h-64 rounded-xl"
-              src= " https://youtu.be/JrVEPOA6W-Q?si=DobGzH7RIb0k9rr3 "
-              title="video3"
-              allowFullScreen
-            ></iframe>
-
-            <iframe
-              className="w-full h-64 rounded-xl"
-              src= " https://youtu.be/AjgaQkHVuLI?si=C2ZCRFPpNqNjiS0j "
-              title="video4"
               allowFullScreen
             ></iframe>
           </div>
@@ -203,7 +189,7 @@ export default function DirtyGooseWebsite() {
 
         {/* Footer */}
         <footer className="text-center p-6 text-gray-500 border-t border-blue-500/20">
-          ©  2026  Dirty  Goose  •  Made  by  ғᴜʜᴀᴅ  -  ᴛʜᴇ  ᴄᴏᴅᴇ  ᴅᴇᴠᴇʟᴏᴘᴇʀ
+          ©  2026  Dirty  Goose  •  ᴍᴀᴅᴇ  ʙʏ  ғᴜʜᴀᴅ  -  ᴛʜᴇ  ᴄᴏᴅᴇ  ᴅᴇᴠᴇʟᴏᴘᴇʀ
         </footer>
       </div>
 
