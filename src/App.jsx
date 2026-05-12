@@ -100,22 +100,29 @@ export default function DirtyGooseWebsite() {
       <div className="relative z-10">
         {/* Navbar */}
         <nav className="flex justify-between p-6 bg-black/60 backdrop-blur border-b border-blue-500/30">
-          <h1 className="text-2xl font-bold text-blue-400">DIRTY GOOSE</h1>
-          <div className="flex gap-4 text-sm">
-            {[
-              "Home",
-              "Tips",
-              "Tools",
-              "Videos",
-              "Leaderboard",
-              "Contact"
-            ].map((item, i) => (
-              <a key={i} onClick={playClick} className="hover:text-blue-400 cursor-pointer">
-                {item}
-              </a>
-            ))}
-          </div>
-        </nav>
+  <h1 className="text-2xl font-bold text-blue-400">DIRTY GOOSE</h1>
+  <div className="flex gap-4 text-sm">
+    {[
+      "Home",
+      "Tips",
+      "Tools",
+      "Videos",
+      "Leaderboard",
+      "Contact"
+    ].map((item, i) => (
+      <a 
+        key={i} 
+        href="https://chat.whatsapp.com/K4X9ZADstIK5tPp4GKcQhY"
+        target="_blank" 
+        rel="noopener noreferrer"
+        onClick={playClick} 
+        className="hover:text-blue-400 cursor-pointer transition-colors"
+      >
+        {item}
+      </a>
+    ))}
+  </div>
+</nav>
 
         {/* Hero */}
         <section className="text-center py-20">
