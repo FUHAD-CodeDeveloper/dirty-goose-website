@@ -29,10 +29,13 @@ export default function DirtyGooseWebsite() {
 
   // Leaderboard
   const [players] = useState([
-    { name: "FUHAD", score: 9999 },
-    { name: "ShadowX", score: 8500 },
-    { name: "ProGamer", score: 7800 }
-  ]);
+    { name: "JAFER", score: 9199 },
+    { name: "ғᴜʜᴀᴅ", score: 8505 },
+    { name: "NAJAD", score: 8204 },
+    { name: "SHIBLI", score: 7999 },
+    { name: "NAJIYA", score: 7800 },
+    { name: "AZEEM", score: 7898 }
+    ]);
 
   // Particle background
   useEffect(() => {
