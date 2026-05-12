@@ -94,9 +94,9 @@ export default function DirtyGooseWebsite() {
               "Home",
               "Tips",
               "Tools",
-              "Videos",
+              "Videos", id: "http://www.youtube.com/@FU-HAD" },
               "Leaderboard",
-              "Contact"
+              "Contact", id: "chat.whatsapp.com/K4X9ZADstIK5tPp4GKcQhY" }
             ].map((item, i) => (
               <a key={i} onClick={playClick} className="hover:text-blue-400 cursor-pointer">
                 {item}
@@ -152,7 +152,7 @@ export default function DirtyGooseWebsite() {
 
         {/* YouTube Section */}
         <section className="p-8">
-          <h3 className="text-3xl text-blue-400 mb-4">🎥 Gaming Videos</h3>
+          <h3 className="text-3xl text-blue-400 mb-4">🎥 Gameplay Walkthroughs</h3>
 
           <div className="grid md:grid-cols-2 gap-6">
             <iframe
