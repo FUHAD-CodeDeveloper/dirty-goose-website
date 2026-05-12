@@ -159,7 +159,7 @@ export default function DirtyGooseWebsite() {
           <div className="grid md:grid-cols-2 gap-6">
             <iframe
               className="w-full h-64 rounded-xl"
-              src= " https://youtu.be/yJ5J7dA-e1Y?si=cJHiWm8L8kf1ZigL "
+              src="https://www.youtube.com/watch?v=bpr3v4rc7zk&t=5s"
               title="video1"
               allowFullScreen
             ></iframe>
