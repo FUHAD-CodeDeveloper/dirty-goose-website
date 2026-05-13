@@ -1,6 +1,6 @@
 import { useEffect, useState } from "react";
 
-export default function DirtyGooseWebsite() {
+export default function HappyGooseWebsite() {
   // Click sound
   const playClick = () => {
     const ctx = new (window.AudioContext || window.webkitAudioContext)();
@@ -19,9 +19,9 @@ export default function DirtyGooseWebsite() {
     { name: "Home", link: "#" },
     { name: "Tips", link: "#" },
     { name: "Tools", link: "#" },
-    { name: "Videos", link: "https://youtube.com/shorts/s49JVlzEjZo?feature=share" },
+    { name: "Videos", link: "" },
     { name: "Leaderboard", link: "#" },
-    { name: "Contact", link: "https://chat.whatsapp.com/K4X9ZADstIK5tPp4GKcQhY" },
+    { name: "Contact", link: "" },
   ];
 
   // Calculator state
@@ -37,12 +37,12 @@ export default function DirtyGooseWebsite() {
 
   // Leaderboard
   const [players] = useState([
-    { name: "JAFER", score: 9199 },
+    { name: "ᴊᴀꜰᴇʀ", score: 9199 },
     { name: "ғᴜʜᴀᴅ", score: 8505 },
-    { name: "NAJAD", score: 8204 },
-    { name: "SHIBLI", score: 7999 },
-    { name: "NAJIYA", score: 7800 },
-    { name: "AZEEM", score: 7898 }
+    { name: "ɴᴀᴊᴀᴅ", score: 8204 },
+    { name: "ꜱʜɪʙʟɪ", score: 7999 },
+    { name: "ɴᴀᴊɪʏᴀ", score: 7800 },
+    { name: "ᴀᴢᴇᴇᴍ", score: 7898 }
     ]);
 
   // Particle background
@@ -98,7 +98,7 @@ export default function DirtyGooseWebsite() {
       <div className="relative z-10">
         {/* Navbar */}
         <nav className="flex justify-between p-6 bg-black/60 backdrop-blur border-b border-blue-500/30">
-          <h1 className="text-2xl font-bold text-blue-400">DIRTY GOOSE</h1>
+          <h1 className="text-2xl font-bold text-blue-400">HAPPY GOOSE</h1>
           <div className="flex gap-4 text-sm">
             {[
               "Home",
@@ -117,7 +117,7 @@ export default function DirtyGooseWebsite() {
 
         {/* Hero */}
         <section className="text-center py-20">
-          <h2 className="text-6xl font-extrabold text-blue-400">DIRTY GOOSE</h2>
+          <h2 className="text-6xl font-extrabold text-blue-400">HAPPY GOOSE</h2>
           <p className="text-gray-300 mt-3">Gaming Tips • Tools • Leaderboards • Videos</p>
         </section>
 
@@ -162,7 +162,7 @@ export default function DirtyGooseWebsite() {
 
         {/* YouTube Section */}
 <section className="p-8">
-  <h3 className="text-3xl text-blue-400 mb-4">🎥 Gaming Videos</h3>
+  <h3 className="text-3xl text-blue-400 mb-4">🎥 Gameplay Walkthrough Video</h3>
 
   <div className="grid md:grid-cols-2 gap-6">
     {/* Garten of Banban 1 Gameplay */}
@@ -185,7 +185,7 @@ export default function DirtyGooseWebsite() {
 
         {/* Leaderboard */}
         <section className="p-8">
-          <h3 className="text-3xl text-blue-400 mb-4">🏆 Todays Leaderboard</h3>
+          <h3 className="text-3xl text-blue-400 mb-4">🏆 GOOSE POINT ASSIST</h3>
 
           <div className="bg-slate-900/70 rounded-xl p-4 border border-blue-500/30">
             {players.map((p, i) => (
@@ -199,7 +199,7 @@ export default function DirtyGooseWebsite() {
 
         {/* Footer */}
         <footer className="text-center p-6 text-gray-500 border-t border-blue-500/20">
-          © 2026 Dirty Goose • Made by ғᴜʜᴀᴅ-ᴛʜᴇ ᴄᴏᴅᴇ ᴅᴇᴠᴇʟᴏᴘᴇʀ
+          © 2026 HAPPY GOOSE • Made by ғᴜʜᴀᴅ-ᴛʜᴇ ᴄᴏᴅᴇ ᴅᴇᴠᴇʟᴏᴘᴇʀ
         </footer>
       </div>
     </div>
