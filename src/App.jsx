@@ -2,7 +2,7 @@ import { useEffect, useState } from "react";
 import { SpeedInsights } from '@vercel/speed-insights/react';
 import { Analytics } from '@vercel/analytics/react';
 
-export default function DirtyGooseWebsite() {
+export default function HappyGooseWebsite() {
   // Click sound
   const playClick = () => {
     const ctx = new (window.AudioContext || window.webkitAudioContext)();
@@ -100,7 +100,7 @@ export default function DirtyGooseWebsite() {
       <div className="relative z-10">
         {/* Navbar */}
         <nav className="flex justify-between p-6 bg-black/60 backdrop-blur border-b border-blue-500/30">
-  <h1 className="text-2xl font-bold text-blue-400">DIRTY GOOSE ᴍᴀᴅᴇ ʙʏ ғᴜʜᴀᴅ</h1>
+  <h1 className="text-2xl font-bold text-blue-400">HAPPY GOOSE ᴍᴀᴅᴇ ʙʏ ғᴜʜᴀᴅ</h1>
   <div className="flex gap-4 text-sm">
     {[
       "Home",
@@ -138,14 +138,14 @@ export default function DirtyGooseWebsite() {
 </nav>
         {/* Hero */}
         <section className="text-center py-20">
-          <h2 className="text-6xl font-extrabold text-blue-400">DIRTY GOOSE</h2>
+          <h2 className="text-6xl font-extrabold text-blue-400">HAPPY GOOSE</h2>
           <p className="text-gray-300 mt-3">Gaming Tips • Tools • Leaderboards • Videos</p>
         </section>
 
         {/* Calculator Tool */}
         <section className="p-8 grid md:grid-cols-2 gap-6">
           <div className="bg-slate-900/70 p-6 rounded-xl border border-blue-500/30">
-            <h3 className="text-xl text-blue-300 mb-3">Calculate Sensitivity For Better performanc</h3>
+            <h3 className="text-xl text-blue-300 mb-3">Calculate Sensitivity You Want For Better performance</h3>
 
             <input
               type="number"
@@ -183,7 +183,7 @@ export default function DirtyGooseWebsite() {
 
         {/* YouTube Section */}
 <section className="p-8">
-  <h3 className="text-3xl text-blue-400 mb-4">🕹️ Gameplay Walkthrough</h3>
+  <h3 className="text-3xl text-blue-400 mb-4">🕹️ Gameplay Walkthrough Video's</h3>
 
   <div className="grid md:grid-cols-2 gap-6">
     {/* Garten of Banban 1 Gameplay */}
@@ -236,7 +236,7 @@ export default function DirtyGooseWebsite() {
 
         {/* Footer */}
         <footer className="text-center p-6 text-gray-500 border-t border-blue-500/20">
-          ©  2026  dirty  goose  •  ᴍᴀᴅᴇ  ʙʏ  ғᴜʜᴀᴅ  -  ᴛʜᴇ  ᴄᴏᴅᴇ  ᴅᴇᴠᴇʟᴏᴘᴇʀ
+          ©  2026  HAPPY  GOOSE  •  ᴍᴀᴅᴇ  ʙʏ  ғᴜʜᴀᴅ  -  ᴛʜᴇ  ᴄᴏᴅᴇ  ᴅᴇᴠᴇʟᴏᴘᴇʀ
         </footer>
       </div>
 
