@@ -1,7 +1,7 @@
 {
-  "name": "dirty-goose-website",
+  "name": "happy-goose-website",
   "version": "1.0.0",
-  "description": "Gaming Tips • Tools • Leaderboards • Videos",
+  "description": "Gaming Tips • Tools • Leaderboards • Gaming Videos",
   "main": "index.jsx",
   "scripts": {
     "dev": "vite",
