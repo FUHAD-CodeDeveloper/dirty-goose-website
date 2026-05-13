@@ -39,12 +39,12 @@ export default function HappyGooseWebsite() {
 
   // Leaderboard
   const [players] = useState([
-    { name: "JAFER", score: 9199 },
+    { name: "ᴊᴀꜰᴇʀ", score: 9199 },
     { name: "ғᴜʜᴀᴅ", score: 8505 },
-    { name: "NAJAD", score: 8204 },
-    { name: "SHIBLI", score: 7999 },
-    { name: "NAJIYA", score: 7800 },
-    { name: "AZEEM", score: 7898 }
+    { name: "ɴᴀᴊᴀᴅ", score: 8204 },
+    { name: "ꜱʜɪʙʟɪ", score: 7999 },
+    { name: "ɴᴀᴊɪʏᴀ", score: 7800 },
+    { name: "ᴀᴢᴇᴇᴍ", score: 7898 }
     ]);
 
   // Particle background
